@@ -84,7 +84,7 @@
     width: 100%;
     height: calc(100vh - 50px);
     min-height: 600px;
-    margin-top: 70px; /* começa exatamente abaixo do header fixo */
+    margin-top: 50px; /* começa exatamente abaixo do header fixo */
     z-index: 2;
 
     background: url("./img/background-home.png") no-repeat center top / cover;
