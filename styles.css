@@ -16,7 +16,7 @@
     align-items: center;
     background-color: #000;
     padding: 10px 150px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -84,10 +84,10 @@
     width: 100%;
     height: calc(100vh - 50px);
     min-height: 600px;
-    margin-top: 50px; /* começa exatamente abaixo do header fixo */
+    margin-top: 0; /* começa exatamente abaixo do header fixo */
     z-index: 2;
 
-    background: url("./img/background-home.png") no-repeat center top / cover;
+    background: url("./img/portfolio_wedlla_ramos_4k.png") no-repeat center 35% / cover;
 }
 
 .content-inicio {
