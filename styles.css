@@ -87,7 +87,7 @@
     margin-top: 0; /* começa exatamente abaixo do header fixo */
     z-index: 2;
 
-    background: url("./img/portfolio_wedlla_ramos_4k.png") no-repeat center 35% / cover;
+    background: url("./img/portfolio_wedlla_ramos_4k.jpg") no-repeat center 35% / cover;
 }
 
 .content-inicio {
