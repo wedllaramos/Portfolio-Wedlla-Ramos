@@ -79,11 +79,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 150px;
+    padding: 40px 150px 6rem;
     position: relative;
     width: 100%;
-    height: calc(125vh - 70px - 10rem); /* desconta a altura do header e da faixa inferior */
-    margin-top: 50px; /* começa exatamente abaixo do header fixo */
+    height: calc(100vh - 70px);
+    min-height: 600px;
+    margin-top: 70px; /* começa exatamente abaixo do header fixo */
     z-index: 2;
 
     background: url("./img/background-home.png") no-repeat center top / cover;
@@ -175,7 +176,7 @@
   padding: 4px 20px;
   width: 100%;
   max-width: 100%;
-  min-height: 5rem;
+  min-height: 3rem;
   display: flex;
   align-items: center;
   z-index: 4;
@@ -196,12 +197,11 @@
 
 .sub-title h1 {
     color: #f3f1ee;
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 1.7rem;
+    font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: left;
-    
 }
 
 .sub-title span {
